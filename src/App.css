@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@font-face{
+    font-family:Grace;
+    src:url('../src/assets/fonts/CoveredByYourGrace-Regular.ttf');
+}
+    .no-scroll{
+        overflow: hidden;
+    }
+
+     @theme{
+        --font-grace: Grace,"sans-serif";
+    }
